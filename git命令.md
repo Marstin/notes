@@ -1,4 +1,4 @@
-## <font color=red text-align=center>linux常用命令</font>
+## <font color=red text-align=center>git命令</font>
 #### 下载
 ```
   git clone https://github.com/*.git #https协议
