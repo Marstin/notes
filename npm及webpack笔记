@@ -1,0 +1,36 @@
+#### 初始化npm模块化环境
+npm init -y
+#### 安装webpack
+npm install --save-dev webpack
+#### 运行
+初始 npx webpack
+在 package.json 添加 npm脚本后
+package.json
+```
+{
+   "name": "webpack-demo",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1",
++     "build": "webpack"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+     "webpack": "^4.0.1",
+     "webpack-cli": "^2.0.9",
+     "lodash": "^4.17.5"
+   }
+ }
+
+```
+npm run build
+
+#### 安装css加载模块
+npm install --save-dev style-loader css-loader
+图片文件 npm install --save-dev file-loader
+#### 清理模块
+npm install --save-dev clean-webpack-plugin
